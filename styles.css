@@ -1,0 +1,115 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  img,picture,svg,video {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, textarea, button, select{
+    font: inherit;
+  }
+  
+  body{
+    background-color: #F2F5F9;
+      min-height: 100vh;
+      ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  hr{
+    color: #F2F5F9;
+    
+  }
+
+  h1{
+    color: #111729;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    margin-left: 1rem;
+  }
+
+  h4{
+    font-size: 1rem;
+    font-family: 'Lato';
+    font-weight: 500;
+  }
+
+  p{
+    font-size: 1rem;
+    font-family: 'Lato';
+    color: #677489;
+    margin-bottom: 1em;
+     }
+
+     .p-shift{
+        margin-left: 1em;
+        width: 86%;
+     }
+
+     .small-text{
+        font-size: 0.8rem;
+     }
+     
+     .footer-img{
+        width: 10%;
+        border-radius: 50%;
+     }
+
+    
+     .footer{
+        display: flex;
+       align-items: center;
+      margin-left: 2.0rem;
+      padding: 1.0em;
+        gap: 1em;
+     }
+     
+     .name-wrap{
+        margin-top: 1em;
+     }
+  
+     img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+   
+   }
+
+   .main-img{
+    position: relative;
+    margin: auto;
+    }
+
+   .overlay{
+    position: absolute;
+    bottom: -1px; /* made it a -1 to cover the very small gap between the svg and the bottom section*/
+    left: 0;
+    
+    }
+
+   .main-content{
+     background-color: #FFFFFF;
+    width: 50%;
+    border-radius: 0px 0px 10px 10px;
+     }
+
+   
+
+    .container{
+     max-width: 62.5rem;
+     margin-left: 25rem;
+        
+    }

@@ -19,7 +19,7 @@
   body{
     background-color: #F2F5F9;
     display: flex;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
     min-height: 100vh;
      }
@@ -79,33 +79,36 @@
      }
   
      img {
-    width: 50%;
-    object-fit: cover;
+    width: 100%;
+   
+   object-fit: cover;
     border-radius: 10px 10px 0px 0px;
    
    }
 
    .main-img{
     position: relative;
-  
-    
-    }
+   }
 
    .overlay{
-    
-    width: 50%;
+     width: 100%;
     position: absolute;
     bottom: -1px; /* made it a -1 to cover the very small gap between the svg and the bottom section*/
     left: 0;
+   ;
     
     }
 
    .main-content{
-     background-color: #FFFFFF;
-    width: 50%;
+    background-color: #FFFFFF;
+    width: 100%;
     border-radius: 0px 0px 10px 10px;
-    max-width: 40rem;
-    
-     }
+    }
 
+    .container{
+      width: 80%;
+      max-width: 600px;
+    }
+
+     
   

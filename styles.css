@@ -18,14 +18,11 @@
   
   body{
     background-color: #F2F5F9;
-      min-height: 100vh;
-      ;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-  }
+    min-height: 100vh;
+     }
 
   hr{
     color: #F2F5F9;
@@ -70,7 +67,7 @@
 
     
      .footer{
-        display: flex;
+     display: flex;
        align-items: center;
       margin-left: 2.0rem;
       padding: 1.0em;
@@ -90,10 +87,13 @@
 
    .main-img{
     position: relative;
-    margin: auto;
+  
+    
     }
 
    .overlay{
+    
+    width: 50%;
     position: absolute;
     bottom: -1px; /* made it a -1 to cover the very small gap between the svg and the bottom section*/
     left: 0;
@@ -104,14 +104,8 @@
      background-color: #FFFFFF;
     width: 50%;
     border-radius: 0px 0px 10px 10px;
+    max-width: 40rem;
+    
      }
 
-   
-
-    .container{
-     max-width: 62.5rem;
-     }
-
-     .wrapper{
-      max-width: 50rem;
-     }
+  
